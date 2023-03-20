@@ -26,16 +26,16 @@ const Main = (props: IMainProps) => (
           <Navbar>
             <li className="mr-6">
               <Link href="/">
-                <a className='elementsheader'>Home</a>
+                <a className="elementsheader">Home</a>
               </Link>
             </li>
             <li className="mr-6">
               <Link href="/about/">
-                <a className='elementsheader'>About</a>
+                <a className="elementsheader">About</a>
               </Link>
             </li>
             <li className="mr-6">
-              <a className='elementsheader'>
+              <a className="elementsheader">
                 Contact
               </a>
             </li>
