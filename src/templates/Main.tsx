@@ -36,7 +36,7 @@ const Main = (props: IMainProps) => (
             </li>
             <li className="mr-6">
               <a className="elementsheader">
-                Contact
+                `Contact` 
               </a>
             </li>
           </Navbar>

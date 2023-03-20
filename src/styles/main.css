@@ -1,7 +1,4 @@
-@tailwind base;
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
-
+/* 
 a {
 
   font-family: 'Montserrat', sans-serif;;
@@ -15,22 +12,12 @@ a {
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: ce;
 }
 
 .RecientePasado {
   font-weight: 350;
 }
-
-/* a {
-  
-  font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
-  color: #000;
-  
-}
-}  */
-
 
 a:hover {
 
@@ -39,6 +26,16 @@ a:hover {
   border-radius: 5px;
   font-size: 25px;
   padding: 10px 20px;
+} */
+
+@tailwind base;
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply underline;
 }
 
 @tailwind components;
