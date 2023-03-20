@@ -1,11 +1,44 @@
 @tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 
 a {
-  @apply text-blue-700;
+
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 24px;
+  transition: background-color 0.3s ease-in-out, font-size 0.1s ease-in-out;
+  padding: 10px 20px;
+  font-weight: 500;
+
+} 
+.elementsheader {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.RecientePasado {
+  font-weight: 350;
+}
+
+/* a {
+  
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  
+}
+}  */
+
+
 a:hover {
-  @apply underline;
+
+
+  background-color: #e4e4fddc;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 10px 20px;
 }
 
 @tailwind components;

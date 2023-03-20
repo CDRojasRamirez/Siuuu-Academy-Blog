@@ -15,7 +15,7 @@ const Main = (props: IMainProps) => (
     {props.meta}
 
     <div className="max-w-screen-md mx-auto">
-      <div className="border-b border-gray-300">
+      <div className="border-b border-gray-300 text-center">
         <div className="pt-16 pb-8">
           <div className="font-semibold text-3xl text-gray-900">
             {AppConfig.title}
@@ -26,17 +26,17 @@ const Main = (props: IMainProps) => (
           <Navbar>
             <li className="mr-6">
               <Link href="/">
-                <a>Home</a>
+                <a className='elementsheader'>Home</a>
               </Link>
             </li>
             <li className="mr-6">
               <Link href="/about/">
-                <a>About</a>
+                <a className='elementsheader'>About</a>
               </Link>
             </li>
             <li className="mr-6">
-              <a href="https://github.com/ixartz/Next-js-Blog-Boilerplate">
-                GitHub
+              <a className='elementsheader'>
+                Contact
               </a>
             </li>
           </Navbar>

@@ -18,9 +18,6 @@ Para asegurarnos de que los alumnos disponen del nivel suficiente de JS que les 
 
 
 
-
-
-
 Example with image:
 
 ![Error](@@baseUrl@@/assets/images/posts/error.png)
